@@ -14,5 +14,27 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'https://github.com/scrooloose/nerdtree.git'
 " 文件目录插件
 Bundle 'https://github.com/Xuyuanp/nerdtree-git-plugin.git'
+" 状态栏插件
+Bundle 'https://github.com/bling/vim-airline.git'
+Bundle 'https://github.com/vim-airline/vim-airline-themes.git'
 " 侧边栏显示 git 文件修改
 Bundle 'https://github.com/airblade/vim-gitgutter.git'
+" 自动补全引号等
+Bundle 'https://github.com/Raimondi/delimitMate.git'
+" 添加注释的插件
+Bundle 'https://github.com/scrooloose/nerdcommenter.git'
+" 代码缩进线
+Bundle 'https://github.com/Yggdroot/indentLine.git'
+" 代码对齐
+Bundle 'https://github.com/godlygeek/tabular.git'
+" 去掉多余空格的插件
+Bundle 'https://github.com/bronson/vim-trailing-whitespace.git'
+"jade 插件
+Bundle 'https://github.com/digitaltoad/vim-jade.git'
+" 闭合标签
+Bundle 'https://github.com/docunext/closetag.vim.git'
+
+
+call vundle#end()            " required
+
+filetype plugin indent on    " required
